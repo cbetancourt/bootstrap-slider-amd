@@ -5,8 +5,8 @@ which is a fork of eyecon's [bootstrap-slider](http://www.eyecon.ro/bootstrap-sl
 ## Changes ##
 - Wrapped jQuery plugin in a module that works with AMD and browser globals.
 - Added standalone handles CSS for those who need them.
-- Added samples for [AMD (using RequireJS)](https://github.com/cbetancourt/bootstrap-slider/blob/master/examples/amd/)
-and [browser globals](https://github.com/cbetancourt/bootstrap-slider/blob/master/examples/globals/).
+- Added samples for [AMD (using RequireJS)](https://github.com/cbetancourt/bootstrap-slider-amd/blob/master/examples/amd/)
+and [browser globals](https://github.com/cbetancourt/bootstrap-slider-amd/blob/master/examples/globals/).
 
 ## Examples ##
 

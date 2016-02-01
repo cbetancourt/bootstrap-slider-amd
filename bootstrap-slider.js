@@ -1,7 +1,10 @@
 /* global define */
 
 /* =========================================================
- * bootstrap-slider.js v2.0.0
+ * bootstrap-slider.js v2.1.0
+ * http://github.com/cbetancourt/bootstrap-slider-amd
+ * 
+ * Original v2.0.0:
  * http://www.eyecon.ro/bootstrap-slider
  * =========================================================
  * Copyright 2012 Stefan Petre

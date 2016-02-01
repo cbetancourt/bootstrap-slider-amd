@@ -1,3 +1,12 @@
+/*!
+ * Slider for Bootstrap
+ * https://github.com/cbetancourt/bootstrap-slider-amd
+ *
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+
 /* handles */
 .slider-horizontal .slider-handle {
     margin-left: -4px;
