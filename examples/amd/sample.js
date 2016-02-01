@@ -3,7 +3,7 @@
 require.config({
     paths: {
         "jquery": "../../bower_components/jquery/dist/jquery.min",
-        "slider": "../../bootstrap-slider"
+        "slider": "../../dist/js/bootstrap-slider.min"
     }
 });
 
