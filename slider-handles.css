@@ -1,0 +1,13 @@
+/* handles */
+.slider-horizontal .slider-handle {
+    margin-left: -4px;
+}
+.slider-handle {
+    background-color: #777;
+    border-radius: 5px;
+    border: 1px solid #666;
+    width: 8px;
+}
+.slider-selection {
+    border-radius: 5px;
+}
