@@ -1,4 +1,5 @@
 /**
+ * NodeJS
  * Simple build file that minifies our source code for distribution.
  */
 
@@ -13,17 +14,11 @@ var distDir = "./dist"
 // Housekeeping
 // -------------------------------
 
-// remove distribution directories
-fs.remove(distDir + "/js", function (err) {
+// make sure distribution dirs exist
+fs.ensureDir(distDir, function (err) {
     if (err)
         throw err
 })
-fs.remove(distDir + "/css", function (err) {
-    if (err)
-        throw err
-})
-
-// recreate them
 fs.ensureDir(distDir + "/js", function (err) {
     if (err)
         throw err

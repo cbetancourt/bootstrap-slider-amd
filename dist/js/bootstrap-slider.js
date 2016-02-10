@@ -1,7 +1,7 @@
 /* global define */
 
 /* =========================================================
- * bootstrap-slider.js v2.1.0
+ * bootstrap-slider.js v2.1.2
  * http://github.com/cbetancourt/bootstrap-slider-amd
  * 
  * Original v2.0.0:
@@ -64,6 +64,9 @@
         switch (this.orientation) {
             case 'vertical':
                 this.picker.addClass('slider-vertical');
+                if (this.element.data('slider-height')) {
+                    this.picker.css('height', this.element.data('slider-height'));
+                }
                 this.stylePos = 'top';
                 this.mousePos = 'pageY';
                 this.sizePos = 'offsetHeight';
@@ -72,7 +75,7 @@
             default:
                 this.picker
                     .addClass('slider-horizontal')
-                    .css('width', this.element.outerWidth());
+                    .css('width', this.element.data('slider-width') || this.element.outerWidth());
                 this.orientation = 'horizontal';
                 this.stylePos = 'left';
                 this.mousePos = 'pageX';

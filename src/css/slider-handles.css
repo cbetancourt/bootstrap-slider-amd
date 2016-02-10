@@ -10,14 +10,22 @@
  */
 
 /* handles */
-.slider-horizontal .slider-handle {
-    margin-left: -4px;
-}
 .slider-handle {
     background-color: #777;
     border-radius: 5px;
     border: 1px solid #666;
+}
+.slider-horizontal .slider-handle {
     width: 8px;
+    margin-left: -4px;
+    cursor: col-resize;
+}
+.slider-vertical .slider-handle {
+    width: 20px;
+    height: 8px;
+    margin-left: -5px;
+    margin-top: -3px;
+    cursor: row-resize;
 }
 .slider-selection {
     border-radius: 5px;
