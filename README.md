@@ -3,7 +3,7 @@ Fork of pammacdotnet's [bootstrap-slider](https://github.com/pammacdotnet/bootst
 which is a fork of eyecon's [bootstrap-slider](http://www.eyecon.ro/bootstrap-slider/).
 
 ## Installation ##
-Run `bower install bootstrap-amd` to install from the [Bower registry](http://bower.io/search).
+Run `bower install bootstrap-slider-amd` to install from the [Bower registry](http://bower.io/search).
 
 ## Examples ##
 
