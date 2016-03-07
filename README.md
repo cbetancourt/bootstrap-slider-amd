@@ -2,11 +2,8 @@
 Fork of pammacdotnet's [bootstrap-slider](https://github.com/pammacdotnet/bootstrap-slider),
 which is a fork of eyecon's [bootstrap-slider](http://www.eyecon.ro/bootstrap-slider/).
 
-## Changes ##
-- Wrapped jQuery plugin in a module that works with AMD and browser globals.
-- Added standalone handles CSS for those who need them.
-- Added samples for [AMD (using RequireJS)](https://github.com/cbetancourt/bootstrap-slider-amd/blob/master/examples/amd/)
-and [browser globals](https://github.com/cbetancourt/bootstrap-slider-amd/blob/master/examples/globals/).
+## Installation ##
+Run `bower install bootstrap-amd` to install from the [Bower registry](http://bower.io/search).
 
 ## Examples ##
 
@@ -28,5 +25,7 @@ favorite browser to open the sample `index.html` pages.
 - Created distributable directory.
 
 ### 2.1.0 ###
-- Wrapped plugin in AMD/globals module.
-- Added examples.
+- Wrapped jQuery plugin in a module that works with AMD and browser globals.
+- Added standalone handles CSS for those who need them.
+- Added samples for [AMD (using RequireJS)](https://github.com/cbetancourt/bootstrap-slider-amd/blob/master/examples/amd/)
+and [browser globals](https://github.com/cbetancourt/bootstrap-slider-amd/blob/master/examples/globals/).
