@@ -1,9 +1,9 @@
 /* global $ */
 
-(function () {
+(function() {
 
-    "use strict";
+	"use strict";
 
-    $("input").slider();
+	$("input").slider();
 
 })();

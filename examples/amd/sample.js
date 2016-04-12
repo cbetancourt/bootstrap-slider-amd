@@ -1,19 +1,19 @@
 /* global require */
 
 require.config({
-    paths: {
-        "jquery": "../../bower_components/jquery/dist/jquery.min",
-        "slider": "../../dist/js/bootstrap-slider.min"
-    }
+	paths: {
+		"jquery": "../../bower_components/jquery/dist/jquery.min",
+		"slider": "../../dist/js/bootstrap-slider.min"
+	}
 });
 
 require([
-    "jquery",
-    "slider"
-], function ($, slider) {
+	"jquery",
+	"slider"
+], function($, slider) {
 
-    "use strict";
+	"use strict";
 
-    $("input").slider();
+	$(".list-group input").slider();
 
 });

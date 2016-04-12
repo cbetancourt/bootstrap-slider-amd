@@ -13,6 +13,16 @@ favorite browser to open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.1.3 ###
+Added support for the unusual case of ranges that use the same min and max
+values. Typically these values are derived from calculations. In the
+special case of the range `0:0`, the `data-slider-value` property (or `value`
+option) should not be included to avoid range formatting issues.
+
+When this issue is present, the slider's `dragLocked` property will be set to
+`true` and the slider handles will not be draggable. The corresponding CSS
+was also updated to reflect this behavior.
+
 ### 2.1.2 ###
 - Added support for custom `width` for horizontal, and `height` for vertical sliders.
 - Updated CSS to fix issues with vertical sliders.

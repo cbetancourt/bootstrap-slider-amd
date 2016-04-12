@@ -1,34 +1,34 @@
 {
-    "name": "bootstrap-slider",
-    "version": "2.1.2",
-    "description": "A Bootstrap Slider component that supports AMD and browser globals.",
-    "main": "bootstrap-slider.js",
-    "directories": {
-        "example": "examples"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/cbetancourt/bootstrap-slider-amd.git"
-    },
-    "keywords": [
-        "bootstrap",
-        "slider",
-        "amd",
-        "globals"
-    ],
-    "author": "cbetancourt",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/cbetancourt/bootstrap-slider-amd/issues"
-    },
-    "homepage": "https://github.com/cbetancourt/bootstrap-slider-amd#readme",
-    "dependencies": {},
-    "devDependencies": {
-        "clean-css": "^3.4.9",
-        "requirejs": "^2.1.22",
-        "uglify-js": "^2.6.1"
-    }
+	"name": "bootstrap-slider",
+	"version": "2.1.3",
+	"description": "A Bootstrap Slider component that supports AMD and browser globals.",
+	"main": "bootstrap-slider.js",
+	"directories": {
+		"example": "examples"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cbetancourt/bootstrap-slider-amd.git"
+	},
+	"keywords": [
+		"bootstrap",
+		"slider",
+		"amd",
+		"globals"
+	],
+	"author": "cbetancourt",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/cbetancourt/bootstrap-slider-amd/issues"
+	},
+	"homepage": "https://github.com/cbetancourt/bootstrap-slider-amd#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"clean-css": "#3.4.9",
+		"requirejs": "#2.1.22",
+		"uglify-js": "#2.6.1"
+	}
 }

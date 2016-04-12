@@ -15,17 +15,17 @@ var distDir = "./dist"
 // -------------------------------
 
 // make sure distribution dirs exist
-fs.ensureDir(distDir, function (err) {
-    if (err)
-        throw err
+fs.ensureDir(distDir, function(err) {
+	if (err)
+		throw err
 })
-fs.ensureDir(distDir + "/js", function (err) {
-    if (err)
-        throw err
+fs.ensureDir(distDir + "/js", function(err) {
+	if (err)
+		throw err
 })
-fs.ensureDir(distDir + "/css", function (err) {
-    if (err)
-        throw err
+fs.ensureDir(distDir + "/css", function(err) {
+	if (err)
+		throw err
 })
 
 // JavaScript
@@ -36,7 +36,7 @@ fs.copy(srcDir + "/js/bootstrap-slider.js", distDir + "/js/bootstrap-slider.js")
 
 // uglify JS
 var uglyJS = UglifyJS.minify([srcDir + "/js/bootstrap-slider.js"], {
-    outSourceMap: "bootstrap-slider.min.js.map"
+	outSourceMap: "bootstrap-slider.min.js.map"
 })
 // write JS
 fs.writeFile(distDir + "/js/bootstrap-slider.min.js", uglyJS.code)
@@ -51,13 +51,13 @@ fs.copy(srcDir + "/css/slider-handles.css", distDir + "/css/bootstrap-slider-han
 
 // minify CSS
 var source = "@import url(" + srcDir + "/css/slider.css);";
-var uglyCSS = new CleanCSS().minify(source, function (err, minified) {
-    // write CSS
-    fs.writeFile(distDir + "/css/bootstrap-slider.min.css", minified.styles)
+var uglyCSS = new CleanCSS().minify(source, function(err, minified) {
+	// write CSS
+	fs.writeFile(distDir + "/css/bootstrap-slider.min.css", minified.styles)
 })
 
 var source = "@import url(" + srcDir + "/css/slider-handles.css);";
-var uglyCSS = new CleanCSS().minify(source, function (err, minified) {
-    // write CSS
-    fs.writeFile(distDir + "/css/bootstrap-slider-handles.min.css", minified.styles)
+var uglyCSS = new CleanCSS().minify(source, function(err, minified) {
+	// write CSS
+	fs.writeFile(distDir + "/css/bootstrap-slider-handles.min.css", minified.styles)
 })

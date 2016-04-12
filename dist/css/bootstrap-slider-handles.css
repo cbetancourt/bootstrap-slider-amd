@@ -1,32 +1,38 @@
 /*!
- * Handles styles
- *
- * Slider for Bootstrap
- * https://github.com/cbetancourt/bootstrap-slider-amd
- *
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- */
+* Handles styles
+*
+* Slider for Bootstrap
+* https://github.com/cbetancourt/bootstrap-slider-amd
+*
+* Licensed under the Apache License v2.0
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+*/
 
 /* handles */
 .slider-handle {
-    background-color: #777;
-    border-radius: 5px;
-    border: 1px solid #666;
+	background-color: #777;
+	border-radius: 5px;
+	border: 1px solid #666;
 }
 .slider-horizontal .slider-handle {
-    width: 8px;
-    margin-left: -4px;
-    cursor: col-resize;
+	width: 8px;
+	margin-left: -4px;
+	cursor: col-resize;
 }
 .slider-vertical .slider-handle {
-    width: 20px;
-    height: 8px;
-    margin-left: -5px;
-    margin-top: -3px;
-    cursor: row-resize;
+	width: 20px;
+	height: 8px;
+	margin-left: -5px;
+	margin-top: -3px;
+	cursor: row-resize;
 }
 .slider-selection {
-    border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* locked handles */
+div.slider.locked .slider-track,
+div.slider.locked .slider-handle{
+	cursor: not-allowed;
 }
