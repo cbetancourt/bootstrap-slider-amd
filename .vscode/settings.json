@@ -1,9 +1,14 @@
 // DO NOT MODIFY
 // Project-wide formatting and validation standards.
+//
+// Last updated on 14-Apr-2016 for VSC 1.0.0
+//
 {
-	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.formatOnType": true,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": true,
+	"editor.tabSize": 4,
 	"files.trimTrailingWhitespace": true,
 	"javascript.suggest.useCodeSnippetsOnMethodSuggest": true
 }

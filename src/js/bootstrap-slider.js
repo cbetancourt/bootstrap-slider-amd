@@ -1,7 +1,7 @@
 /* global define */
 
 /* =========================================================
-* bootstrap-slider.js v2.1.3
+* bootstrap-slider.js v2.1.4
 * http://github.com/cbetancourt/bootstrap-slider-amd
 *
 * Original v2.0.0:
@@ -88,7 +88,7 @@
 		this.max = this.element.data('slider-max') || options.max;
 		this.step = this.element.data('slider-step') || options.step;
 		this.value = this.element.data('slider-value') || options.value;
-		if (this.value[1]) {
+		if (this.value.length) {
 			this.range = true;
 		}
 

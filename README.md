@@ -13,6 +13,12 @@ favorite browser to open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.1.4 ###
+- Range validation is now checked using `this.value.length` instead of checking
+for the existence of a second array member. This bug caused the second drag
+handle to be hidden when an unusual, yet valid, range like `0:0` is used.
+- Updated examples
+
 ### 2.1.3 ###
 Added support for the unusual case of ranges that use the same min and max
 values. Typically these values are derived from calculations. In the
@@ -28,7 +34,8 @@ was also updated to reflect this behavior.
 - Updated CSS to fix issues with vertical sliders.
 - Added vertical slider examples.
 - Changed the minimum required version of jQuery from `^2.1.22` to `^1.12.0`
-- Made `requirejs` an NPM developement dependency. It has been moved from bower.json to package.json.
+- Made `requirejs` an NPM developement dependency. It has been moved from
+bower.json to package.json.
 
 ### 2.1.1 ###
 - Added build process.

@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Bootstrap Slider with RequireJS</title>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-	crossorigin="anonymous">
+		crossorigin="anonymous">
 	<link rel="stylesheet" href="../../dist/css/bootstrap-slider.min.css">
 	<link rel="stylesheet" href="../../dist/css/bootstrap-slider-handles.min.css">
 	<style>
@@ -39,13 +39,12 @@
 					<li class="list-group-item">
 						<h3>Single Selection</h3>
 						<p>Value: 0-100, step: 5, initial value: 10</p>
-						<input type="slider" value="" data-slider-min="0" data-slider-max="100" data-slider-step="5" data-slider-value="10" data-slider-handle="square">
+						<input type="slider" value="" data-slider-min="0" data-slider-max="100" data-slider-step="5" data-slider-value="10">
 					</li>
 					<li class="list-group-item">
 						<h3>Single Selection</h3>
 						<p>Width: 100%, Value: 0-100, step: 5, initial value: 10</p>
-						<input type="slider" value="" data-slider-width="100%" data-slider-min="0" data-slider-max="100" data-slider-step="5" data-slider-value="10"
-						data-slider-handle="square">
+						<input type="slider" value="" data-slider-width="100%" data-slider-min="0" data-slider-max="100" data-slider-step="5" data-slider-value="10">
 					</li>
 					<li class="list-group-item">
 						<h3>Range Selection</h3>
@@ -54,31 +53,31 @@
 					</li>
 					<li class="list-group-item">
 						<h3>Range Selection (*unusual range)</h3>
-						<p>Range 0-0, step: 0, initial range: 0</p>
-						<input type="slider" value="0" data-slider-min="0" data-slider-max="0" data-slider-step="0">
+						<p>Range 0-200, step: 6, initial range: 0 : 0</p>
+						<input type="slider" value="0,0" data-slider-min="0" data-slider-max="200" data-slider-step="6" data-slider-value="[0,0]">
 					</li>
 					<li class="list-group-item">
 						<h3>Single Selection (Vertical)</h3>
 						<p>Orientation: vertical, Value: 0-100, step: 5, initial value: 10</p>
 						<input type="slider" value="" data-slider-orientation="vertical" data-slider-min="0" data-slider-max="100" data-slider-step="5"
-						data-slider-value="10" data-slider-handle="square">
+							data-slider-value="10">
 					</li>
 					<li class="list-group-item">
 						<h3>Single Selection (Vertical)</h3>
 						<p>Height: 50px, Orientation: vertical, Value: 0-100, step: 5, initial value: 10</p>
 						<input type="slider" value="" data-slider-height="50px" data-slider-orientation="vertical" data-slider-min="0" data-slider-max="100"
-						data-slider-step="5" data-slider-value="10" data-slider-handle="square">
+							data-slider-step="5" data-slider-value="10">
 					</li>
 					<li class="list-group-item">
 						<h3>Range Selection (Vertical)</h3>
 						<p>Orientation: vertical, Range 0-100, step: 5, initial range: 50 : 80</p>
 						<input type="slider" value="" data-slider-orientation="vertical" data-slider-min="0" data-slider-max="100" data-slider-step="5"
-						data-slider-value="[50,80]">
+							data-slider-value="[50,80]">
 					</li>
 					<li class="list-group-item">
 						<h3>Range Selection (*unusual range)</h3>
-						<p>Orientation: vertical, Range 0-0, step: 0, initial range: 0</p>
-						<input type="slider" value="0" data-slider-orientation="vertical" data-slider-min="0" data-slider-max="0" data-slider-step="0">
+						<p>Orientation: vertical, Range 0-200, step: 6, initial range: 0 : 0</p>
+						<input type="slider" value="0,0" data-slider-orientation="vertical" data-slider-min="0" data-slider-max="200" data-slider-step="6" data-slider-value="[0,0]">
 					</li>
 				</ul>
 
