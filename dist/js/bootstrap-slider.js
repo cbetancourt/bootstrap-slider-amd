@@ -270,7 +270,6 @@
 				this.inDrag = true;
 				var val = this.calculateValue();
 
-				this.setValue(val);
 				this.element.trigger({
 					type: 'slideStart',
 					value: val
@@ -306,7 +305,6 @@
 				this.percentage[this.dragged] = x;
 				this.layout();
 				var val = this.calculateValue();
-				this.setValue(val);
 
 				this.element
 					.trigger({
@@ -358,9 +356,11 @@
 					(this.min + Math.round((this.diff * this.percentage[1] / 100) / this.step) * this.step)
 				];
 				this.value = val;
+				this.setValue(val);
 			} else {
 				val = (this.min + Math.round((this.diff * this.percentage[0] / 100) / this.step) * this.step);
 				this.value = [val, this.value[1]];
+				this.setValue(val);
 			}
 			return val;
 		},

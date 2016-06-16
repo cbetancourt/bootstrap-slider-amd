@@ -1,6 +1,6 @@
 {
 	"name": "bootstrap-slider",
-	"version": "2.1.4",
+	"version": "2.1.5",
 	"description": "A Bootstrap Slider component that supports AMD and browser globals.",
 	"main": "bootstrap-slider.js",
 	"directories": {

@@ -1,7 +1,7 @@
 // DO NOT MODIFY
 // Project-wide formatting and validation standards.
 //
-// Last updated on 14-Apr-2016 for VSC 1.0.0
+// Last updated on 6-Jun-2016 for VSC 1.2.0 by @cbetancourt
 //
 {
 	"editor.detectIndentation": false,
@@ -10,5 +10,5 @@
 	"editor.renderWhitespace": true,
 	"editor.tabSize": 4,
 	"files.trimTrailingWhitespace": true,
-	"javascript.suggest.useCodeSnippetsOnMethodSuggest": true
+	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false
 }

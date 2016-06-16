@@ -13,11 +13,16 @@ favorite browser to open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.1.5 ###
+- Moved calls to `this.setValue` inside of calculation logic to solve rounding
+errors when the sliders is reset to original min/max values.
+- Updated examples.
+
 ### 2.1.4 ###
 - Range validation is now checked using `this.value.length` instead of checking
 for the existence of a second array member. This bug caused the second drag
 handle to be hidden when an unusual, yet valid, range like `0:0` is used.
-- Updated examples
+- Updated examples.
 
 ### 2.1.3 ###
 Added support for the unusual case of ranges that use the same min and max
