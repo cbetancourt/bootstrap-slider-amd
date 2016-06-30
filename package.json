@@ -1,6 +1,6 @@
 {
-	"name": "bootstrap-slider",
-	"version": "2.1.5",
+	"name": "bootstrap-slider-amd",
+	"version": "2.1.6",
 	"description": "A Bootstrap Slider component that supports AMD and browser globals.",
 	"main": "bootstrap-slider.js",
 	"directories": {
@@ -27,8 +27,8 @@
 	"homepage": "https://github.com/cbetancourt/bootstrap-slider-amd#readme",
 	"dependencies": {},
 	"devDependencies": {
-		"clean-css": "#3.4.9",
-		"requirejs": "#2.1.22",
-		"uglify-js": "#2.6.1"
+		"clean-css": "3.4.9",
+		"requirejs": "2.1.22",
+		"uglify-js": "2.6.1"
 	}
 }

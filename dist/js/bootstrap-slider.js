@@ -1,7 +1,7 @@
 /* global define */
 
 /* =========================================================
-* bootstrap-slider.js v2.1.4
+* bootstrap-slider-amd v2.1.6
 * http://github.com/cbetancourt/bootstrap-slider-amd
 *
 * Original v2.0.0:

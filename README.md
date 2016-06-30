@@ -13,6 +13,9 @@ favorite browser to open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.1.6 ###
+- Updated project name prior to publication to NPM repository.
+
 ### 2.1.5 ###
 - Moved calls to `this.setValue` inside of calculation logic to solve rounding
 errors when the sliders is reset to original min/max values.
