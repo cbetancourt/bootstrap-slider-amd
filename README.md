@@ -13,6 +13,9 @@ open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.2.3 ###
+- Made jQuery a developement dependency.
+
 ### 2.2.2 ###
 - Fixed jQuery example.
 
