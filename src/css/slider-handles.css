@@ -82,6 +82,11 @@
 div.slider.locked .slider-track,
 div.slider.locked .slider-handle{
 	cursor: not-allowed;
+	border-color: #e9e9e9;
+	color: #e9e9e9;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
 }
 
 
