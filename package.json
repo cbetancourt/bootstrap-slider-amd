@@ -1,6 +1,6 @@
 {
 	"name": "bootstrap-slider-amd",
-	"version": "2.2.2",
+	"version": "2.2.3",
 	"description": "A Bootstrap Range Slider component that supports AMD and browser globals.",
 	"main": "bootstrap-slider.js",
 	"directories": {
@@ -25,11 +25,10 @@
 		"url": "https://github.com/cbetancourt/bootstrap-slider-amd/issues"
 	},
 	"homepage": "https://github.com/cbetancourt/bootstrap-slider-amd#readme",
-	"dependencies": {
-		"jquery": "^1.12.0"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"clean-css": "3.4.21",
+		"jquery": "^1.12.0",
 		"requirejs": "2.3.2",
 		"uglify-js": "2.7.5"
 	}
