@@ -8,8 +8,8 @@ Run `bower install bootstrap-slider-amd` to install from the [Bower registry](ht
 ## Examples ##
 
 To run the examples, make sure to install the runtime dependencies by running
-`npm install` and `bower install` from the project's root. Then use your
-favorite browser to open the sample `index.html` pages.
+`npm install` from the project's root folder. Then use your favorite browser to
+open the sample `index.html` pages.
 
 ## Changes ##
 
