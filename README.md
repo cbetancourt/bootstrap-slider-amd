@@ -13,6 +13,12 @@ open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.2.2 ###
+- Fixed jQuery example.
+
+### 2.2.1 ###
+- Updated documentation.
+
 ### 2.2.0 ###
 - Improved look and feel of slider track, active selection and handles.
 - Updated build and runtime dependencies.
