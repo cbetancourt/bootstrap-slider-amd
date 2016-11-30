@@ -13,6 +13,10 @@ favorite browser to open the sample `index.html` pages.
 
 ## Changes ##
 
+### 2.2.0 ###
+- Improved look and feel of slider track, active selection and handles.
+- Updated build and runtime dependencies.
+
 ### 2.1.6 ###
 - Updated project name prior to publication to NPM repository.
 

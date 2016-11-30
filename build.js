@@ -15,15 +15,15 @@ var distDir = "./dist"
 // -------------------------------
 
 // make sure distribution dirs exist
-fs.ensureDir(distDir, function(err) {
+fs.ensureDir(distDir, err => {
 	if (err)
 		throw err
 })
-fs.ensureDir(distDir + "/js", function(err) {
+fs.ensureDir(distDir + "/js", err => {
 	if (err)
 		throw err
 })
-fs.ensureDir(distDir + "/css", function(err) {
+fs.ensureDir(distDir + "/css", err => {
 	if (err)
 		throw err
 })
@@ -51,13 +51,19 @@ fs.copy(srcDir + "/css/slider-handles.css", distDir + "/css/bootstrap-slider-han
 
 // minify CSS
 var source = "@import url(" + srcDir + "/css/slider.css);";
-var uglyCSS = new CleanCSS().minify(source, function(err, minified) {
+var uglyCSS = new CleanCSS().minify(source, (err, minified) => {
+	if (err)
+		throw err
+
 	// write CSS
 	fs.writeFile(distDir + "/css/bootstrap-slider.min.css", minified.styles)
 })
 
 var source = "@import url(" + srcDir + "/css/slider-handles.css);";
-var uglyCSS = new CleanCSS().minify(source, function(err, minified) {
+var uglyCSS = new CleanCSS().minify(source, (err, minified) => {
+	if (err)
+		throw err
+
 	// write CSS
 	fs.writeFile(distDir + "/css/bootstrap-slider-handles.min.css", minified.styles)
 })
