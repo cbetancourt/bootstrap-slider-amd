@@ -1,6 +1,6 @@
 {
 	"name": "bootstrap-slider-amd",
-	"version": "2.2.4",
+	"version": "2.2.5",
 	"description": "A Bootstrap Range Slider component that supports AMD and browser globals.",
 	"main": "bootstrap-slider.js",
 	"directories": {
