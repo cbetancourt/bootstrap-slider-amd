@@ -7,6 +7,7 @@
 		"example": "examples"
 	},
 	"scripts": {
+		"build": "node build.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -28,6 +29,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"clean-css": "3.4.21",
+		"fs-extra": "^3.0.1",
 		"jquery": "^1.12.0",
 		"requirejs": "2.3.2",
 		"uglify-js": "2.7.5"
